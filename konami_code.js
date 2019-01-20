@@ -18,7 +18,7 @@ function init() {
  let idx = 0
 
 
- } 	  document.body.addEventListener("keydown", (e) => {
+ 	  document.body.addEventListener("keydown", (e) => {
     const key = e.key
 
      idx = (codes[idx] === key) ? ++idx : 0
